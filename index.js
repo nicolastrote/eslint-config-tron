@@ -219,7 +219,6 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'off',
     'react/jsx-curly-spacing': 'warn',
     'object-curly-spacing': ['error', 'always'],
-    'react/jsx-one-expression-per-line': ['off'],
   },
   settings: {
     'import/resolver': {
