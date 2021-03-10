@@ -10,8 +10,8 @@ Tron"s ESLint config with TypeScript, Hooks and Prettier support.
 Install `eslint-config-tron` and its peer dependencies :
 
 ```bash
-$ npx install-peerdeps --dev eslint-config-tron
 $ npm install eslint-config-tron --save-dev
+$ npx install-peerdeps --dev eslint-config-tron
 ```
 
 and put it into your `.eslintrc.js` :
