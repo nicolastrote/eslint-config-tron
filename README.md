@@ -1,4 +1,4 @@
-# eslint-config-tron-typescript-hooks-prettier
+# eslint-config-tron
 
 [![npm version][npm-image]][npm-url]
 ![License][license]
@@ -6,24 +6,28 @@
 Tron"s ESLint config with TypeScript, Hooks and Prettier support.
 
 # How to use
-Install `typescript`, `eslint` and `prettier`, `eslint-config-tron-typescript-prettier` and put it into your `.eslintrc.js`.
+
+Install `typescript`, `eslint` and `prettier`, `eslint-config-tron-typescript-prettier` :
 
 ```bash
-$ npm install typescript eslint prettier eslint-config-tron-typescript-hooks-prettier --save-dev
+$ npm install typescript eslint prettier eslint-config-tron --save-dev
 ```
 
-`.eslintrc.js`
+and put it into your `.eslintrc.js` :
 
 ```js
 module.exports = {
-  extends: "tron-typescript-hooks-prettier"
+  extends: "tron-typescript-hooks-prettier",
+  rules: {
+    // Additional, per-project rules...
+  }
 };
 ```
 
 ## License
 
-Open source [licensed as MIT](https://github.com/nicolastrote/eslint-config-tron-typescript-hooks-prettier/blob/master/LICENSE).
+Open source [licensed as MIT](https://github.com/nicolastrote/eslint-config-tron/blob/master/LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/eslint-config-tron-typescript-hooks-prettier.svg
-[npm-url]: https://npmjs.org/package/eslint-config-tron-typescript-hooks-prettier
-[license]: https://img.shields.io/npm/l/eslint-config-tron-typescript-hooks-prettier.svg
+[npm-image]: https://img.shields.io/npm/v/eslint-config-tron.svg
+[npm-url]: https://npmjs.org/package/eslint-config-tron
+[license]: https://img.shields.io/npm/l/eslint-config-tron.svg

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-tron-typescript-hooks-prettier",
+  "name": "eslint-config-tron",
   "version": "1.0.0",
   "description": "Tron's ESLint config with TypeScript, Hooks and Prettier support",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nicolastrote/eslint-config-tron-typescript-hooks-prettier.git"
+    "url": "git+ssh://git@github.com/nicolastrote/eslint-config-tron.git"
   },
   "engines": {
     "node": ">=10"
@@ -27,9 +27,9 @@
   "author": "Nicolas Trote",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nicolastrote/eslint-config-tron-typescript-hooks-prettier/issues"
+    "url": "https://github.com/nicolastrote/eslint-config-tron/issues"
   },
-  "homepage": "https://github.com/nicolastrote/eslint-config-tron-typescript-hooks-prettier#readme",
+  "homepage": "https://github.com/nicolastrote/eslint-config-tron#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -64,5 +64,8 @@
     "react-dom": "^17.0.1",
     "standard-version": "^9.1.1",
     "typescript": "~4.1.2"
+  },
+  "directories": {
+    "test": "test"
   }
 }
