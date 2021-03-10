@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tron's ESLint config with TypeScript, Hooks and Prettier support",
   "main": "index.js",
   "scripts": {
