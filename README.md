@@ -7,17 +7,18 @@ Tron"s ESLint config with TypeScript, Hooks and Prettier support.
 
 # How to use
 
-Install `typescript`, `eslint` and `prettier`, `eslint-config-tron-typescript-prettier` :
+Install `eslint-config-tron` and its peer dependencies :
 
 ```bash
-$ npm install typescript eslint prettier eslint-config-tron --save-dev
+$ npx install-peerdeps --dev eslint-config-tron
+$ npm install eslint-config-tron --save-dev
 ```
 
 and put it into your `.eslintrc.js` :
 
 ```js
 module.exports = {
-  extends: "tron-typescript-hooks-prettier",
+  extends: "eslint-config-tron",
   rules: {
     // Additional, per-project rules...
   }
