@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tron",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Tron's ESLint config with TypeScript, Hooks and Prettier support",
   "author": "Nicolas Trote aka Tron",
   "license": "MIT",
